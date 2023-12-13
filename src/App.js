@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <Container>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" data-bs-theme="dark" expand="lg">
           <Container>
             <Navbar.Brand as={Link} to="/home">Task Management System</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
